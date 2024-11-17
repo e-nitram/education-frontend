@@ -1,0 +1,28 @@
+.mob_logo_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 10%;
+  height: 160px;
+  align-items: baseline;
+}
+.mob_logo_grid-col {
+  height: unset;
+}
+/* .edu_star_icon {
+    height: 24px;
+    width: 24px;
+} */
+.mobile_banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 140px;
+}
+.mobile_banner_bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 42px;
+}

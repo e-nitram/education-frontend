@@ -1,0 +1,17 @@
+.overlayCover {
+  width: 100%;
+  height: -webkit-fill-available;
+  position: absolute;
+  z-index: 1;
+  background: #2541b2;
+  mix-blend-mode: multiply;
+}
+
+.overlayCoverQuote {
+  width: 100%;
+  height: -webkit-fill-available;
+  position: absolute;
+  z-index: 1;
+  background: #2541b2;
+  opacity: 45%;
+}

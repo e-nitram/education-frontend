@@ -1,0 +1,33 @@
+.videoBanner {
+  position: fixed;
+  left: 7%;
+  z-index: 10;
+  display: flex;
+  flex-basis: 50%;
+  /* z-index: 30; */
+  /* height: 100%; */
+  margin: auto;
+  grid-gap: 2em;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light);
+}
+.imageBanner {
+  position: fixed;
+  left: 7%;
+  z-index: 10;
+  display: flex;
+  flex-basis: 50%;
+  /* z-index: 30; */
+  /* height: 100%; */
+  margin: auto;
+  grid-gap: 2em;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light);
+}
+@media (max-width: 768px) {
+  .overview {
+    flex-direction: column !important;
+  }
+}

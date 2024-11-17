@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="64" viewBox="0 0 164 64">
+  <g id="Group_581" data-name="Group 581" transform="translate(8779 -5147.048)">
+    <g id="Group" transform="translate(-8779 5147.048)">
+      <text id="UNIVERSITY" transform="translate(0 29)" fill="#f26f10" font-size="28" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">UNIVERSITY</tspan></text>
+      <text id="BOUND" transform="translate(0 54)" fill="#161616" font-size="28" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">BOUND</tspan></text>
+    </g>
+    <g id="noun-mortar-board-212884" transform="translate(-8674.648 5182.334)">
+      <path id="Path_293" data-name="Path 293" d="M210.635,233.54,194.29,240.1l7.684,3.438c.143-.063.285-.119.422-.169l8.946-4.541a1.177,1.177,0,0,1,1.583.517h0a1.177,1.177,0,0,1-.517,1.583l-7.621,3.869,6.679,2.987,15.638-7.123Z" transform="translate(-194.29 -233.54)" fill="#161616"/>
+      <path id="Path_294" data-name="Path 294" d="M397.342,475.976l-7.692-3.441-.326.165c-1.071.649-1.275.932-1.161,2.287a1.563,1.563,0,0,1,.525,1.668c.2.2.122.6.122.9h0a17.85,17.85,0,0,0,8.105,2.3,26.607,26.607,0,0,0,8.511-1.65c2.269-.784,3.869-2.493,3.869-3.614v-4.063Z" transform="translate(-380.167 -460.789)" fill="#161616"/>
+      <path id="Path_295" data-name="Path 295" d="M330.443,376.825h0a.471.471,0,0,0-.633-.206l-8.986,4.562c-1.984,1.1-1.908,1.766-1.939,4.072a1,1,0,0,0-.241,1.41,1.133,1.133,0,0,0-.608,1s-.866,6.046-.385,7.513c.151.462,1.386.608,1.848.608s1.763-.13,1.849-.608c.382-2.137.256-2.133-.6-7.513a1.131,1.131,0,0,0-.515-.946,1,1,0,0,0-.411-1.577c.029-1.743.047-2.29,1.47-3.141l8.943-4.541a.471.471,0,0,0,.207-.633Z" transform="translate(-312.439 -370.688)" fill="#f26f10"/>
+      <path id="Path_296" data-name="Path 296" d="M325.3,480.673a5.439,5.439,0,0,1,.245-2.574,2.823,2.823,0,0,1,.867-1.127l-1.526-.683v3.965a1.625,1.625,0,0,0,.186.739,1.557,1.557,0,0,1,.229-.32Z" transform="translate(-319.516 -466.31)"/>
+    </g>
+  </g>
+</svg>

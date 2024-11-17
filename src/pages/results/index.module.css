@@ -1,0 +1,49 @@
+.thankYouPage {
+  margin-top: 96px;
+  margin-bottom: 130px;
+  display: flex;
+  position: relative;
+  column-gap: 114px;
+  align-items: center;
+  justify-content: space-between;
+}
+.thankYouPage p {
+  margin: 16px 0px;
+}
+.cardLoading {
+  text-align: center;
+  margin: auto;
+}
+.thankYouContent {
+  max-width: 840px;
+  flex: 1;
+}
+.thankYouResults {
+  flex: 1;
+  max-width: 696px;
+  min-width: 480px;
+}
+
+.resultWrapper::-webkit-scrollbar {
+  display: none;
+}
+.termCondition {
+  display: flex;
+}
+
+.pToggle {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .thankYouPage {
+    flex-direction: column;
+  }
+  .TYCDetail {
+    display: none;
+  }
+  .thankYouResults {
+    min-width: 360px;
+  }
+}

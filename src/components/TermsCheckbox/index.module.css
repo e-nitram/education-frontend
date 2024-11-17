@@ -1,0 +1,43 @@
+.checkbox {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+  /* width: 40px;
+  height: 40px; */
+}
+
+.roundedCheckbox {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+.roundedImgClass {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+.checkbox input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  /* height: 0;
+  width: 0; */
+}
+
+.checkmark {
+  height: 24px;
+  width: 24px;
+  background-color: rgba(22, 22, 22, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+
+.checkbox input[type='checkbox']:checked ~ .checkmark {
+  background-color: #2541b2;
+}

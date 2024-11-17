@@ -1,0 +1,77 @@
+/* progress steps */
+.progressStep__number {
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+.progressBar__outercontainer {
+  width: 100% !important;
+}
+
+.progressStep__container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.progressStep__bar {
+  height: 16px;
+  width: 111px;
+  border-radius: 8px;
+  background: #ebebeb;
+  padding: 0;
+  display: flex;
+  gap: 0;
+}
+.step_wrapper_body {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0px;
+  gap: 10px;
+}
+
+.progressStep__applyColor {
+  border-radius: 8px;
+  height: 100%;
+  margin: 0;
+  background: var(--primary);
+  display: flex;
+  justify-content: flex-end;
+  transition-property: width;
+  transition-duration: 0.5s;
+  /* transition-delay: 0.5s; */
+}
+.iconProgress {
+  max-width: 44px;
+  height: 44px;
+  margin-top: -12px;
+  margin-right: -10px;
+}
+.step-wrapper-body.three {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 850px;
+  /* height: 300px; */
+}
+
+@media (max-width: 768px) {
+  .progressStep__container div:not(:first-child) {
+    margin-left: -30px !important;
+    background: #ebebeb;
+  }
+  .progressStep__applyColor {
+    border-radius: 4px !important;
+  }
+  .step_wrapper_body > div {
+    width: 338px !important;
+    margin: auto;
+  }
+}
+
+/* @media (max-width: 480px) {
+.step_wrapper_body {
+    max-width: 1920px !important;
+    padding: 0px 37px !important;
+  }
+} */

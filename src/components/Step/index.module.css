@@ -1,0 +1,83 @@
+.root {
+  background: inherit;
+  width: 30%;
+  margin: 0 auto;
+  max-width: 277px;
+}
+
+@media (max-width: 768px) {
+  .root {
+    background: inherit;
+
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.heading {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-semibold);
+  line-height: 1.875rem;
+  color: var(--text-primary);
+}
+.navHeading {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-semibold);
+  line-height: 1.875rem;
+  color: var(--white);
+}
+.stepIconsColor {
+  filter: invert(94%) sepia(48%) saturate(2%) hue-rotate(15deg) brightness(113%)
+    contrast(101%);
+}
+.stepIconContainer {
+  width: 68px;
+  height: 68px;
+  background: var(--lotion);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  margin-bottom: 10px px;
+}
+.navStepIconContainer {
+  width: 68px;
+  height: 68px;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  margin-bottom: 10px px;
+}
+
+.content {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-regular);
+  line-height: 1.625rem;
+  max-width: 100%;
+  color: var(--text-dark);
+  text-align: center;
+}
+.navContent {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-regular);
+  line-height: 1.625rem;
+  max-width: 100%;
+  color: var(--white);
+  text-align: center;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 10px; */
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+<svg id="insights_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_554" data-name="Group 554">
+    <rect id="Rectangle_506" data-name="Rectangle 506" width="24" height="24" fill="none"/>
+    <rect id="Rectangle_507" data-name="Rectangle 507" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Group_556" data-name="Group 556">
+    <g id="Group_555" data-name="Group 555">
+      <path id="Path_279" data-name="Path 279" d="M21,8a2,2,0,0,0-1.93,2.51l-3.55,3.56a2.037,2.037,0,0,0-1.04,0l-2.55-2.55a2,2,0,1,0-3.86,0L3.51,16.07a2,2,0,1,0,1.42,1.42l4.55-4.56a2.037,2.037,0,0,0,1.04,0l2.55,2.55a2,2,0,1,0,3.86,0l3.56-3.55A2,2,0,1,0,21,8Z"/>
+      <path id="Path_280" data-name="Path 280" d="M15,9l.94-2.07L18,6l-2.06-.93L15,3l-.92,2.07L12,6l2.08.93Z"/>
+      <path id="Path_281" data-name="Path 281" d="M3.5,11,4,9l2-.5L4,8,3.5,6,3,8,1,8.5,3,9Z"/>
+    </g>
+  </g>
+</svg>

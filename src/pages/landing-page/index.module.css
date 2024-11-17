@@ -1,0 +1,107 @@
+.form_btn {
+  height: 70px !important;
+  width: 100%;
+  box-shadow: 0px 3px 6px -5px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.form_select {
+  /* padding: 14px; */
+  height: 50px !important;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 3px 6px rgba(85, 85, 85, 0.5);
+}
+.form_btn_first {
+  min-height: 400px;
+  width: 50%;
+  margin: auto;
+}
+
+/* step_form */
+.form_stack {
+  width: 450px;
+  margin: auto;
+}
+.step_form {
+  padding: 0 14px 40px 14px;
+}
+.radio_stack > label > span {
+  text-align: left !important;
+}
+.step_radio_btn {
+  width: 30px !important;
+  height: 30px !important;
+  border: 1px solid #9d9d9d !important;
+}
+.step_radio_btn[data-checked] {
+  background: radial-gradient(#acacac, #b9b9b9) !important;
+  border-color: #9d9d9d !important;
+  color: #343434 !important;
+}
+.step_radio_btn[data-checked]::before {
+  width: 67% !important;
+  height: 67% !important;
+}
+.step_form_checkbox span:last-child {
+  width: 100%;
+}
+.step_form_checkbox .step_form_checkbox_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+/* school-search */
+.outer_box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white_card {
+  width: 85%;
+  margin: auto;
+  background: var(--lotion);
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+}
+.icon_box {
+  height: 26px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0b1b6b;
+  border-radius: 50%;
+}
+.progress {
+  background: #e9ecef;
+  border-radius: 0.25rem;
+}
+.progress_bar {
+  background: #afabab;
+  border-radius: 0.25rem;
+  text-align: left;
+  padding-left: 4px;
+}
+.show_more {
+  font-size: 14px;
+  color: #0b1b6b;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .form_btn_first,
+  .form_stack {
+    width: 100%;
+  }
+}

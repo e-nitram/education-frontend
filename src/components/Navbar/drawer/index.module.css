@@ -1,0 +1,62 @@
+.drawerContainer {
+  height: 100vh;
+  position: absolute;
+  width: 90%;
+  background-color: var(--white);
+  right: 0;
+  top: -50px;
+  z-index: 99999;
+  overflow-y: scroll;
+}
+.drawerContainer::scrollbar {
+  display: none;
+}
+
+.drawerTopContainer {
+  height: auto;
+  width: 100%;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.drawercloseBtn {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 3%;
+}
+
+.drawerCloseIcon {
+  filter: invert(94%) sepia(48%) saturate(2%) hue-rotate(15deg) brightness(113%)
+    contrast(101%);
+}
+.selectWrapper {
+  width: 80%;
+}
+
+.linksWrapper ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subnav_links a {
+  margin: 0 1.5rem 0 0;
+  font-size: 22px;
+  font-family: var(--font-primary);
+  font-weight: var(--font-medium);
+  gap: 16px;
+  line-height: 29px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.activeClass {
+  border-bottom: 2px solid var(--white);
+}

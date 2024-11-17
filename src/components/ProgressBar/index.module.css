@@ -1,0 +1,30 @@
+.progress_container {
+  margin: 16px 0;
+  position: relative;
+}
+.progress_forground {
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+.progressStep__applyColor {
+  position: absolute;
+  top: 0;
+  border-radius: 8px;
+  margin: 0;
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+.iconProgress {
+  max-width: 34px;
+  height: 34px;
+  margin-top: -15px;
+  /* margin-right: -10px; */
+}
+.progress_tick_icon {
+  /* width: 100%; */
+  margin-top: -11px;
+  margin-right: -6px;
+}

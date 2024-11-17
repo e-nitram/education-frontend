@@ -1,0 +1,27 @@
+.programs__form {
+  max-width: 360px;
+  margin: auto;
+}
+
+.buttonWrapper {
+  max-width: 80%;
+  margin: auto;
+}
+
+.multiCols {
+  display: flex;
+  gap: 0.3rem;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .multiCols {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .buttonWrapper {
+    max-width: 100%;
+  }
+}

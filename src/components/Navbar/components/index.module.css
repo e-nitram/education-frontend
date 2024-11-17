@@ -1,0 +1,216 @@
+/* Why Education Directory */
+.whyEDContainer {
+  width: 75%;
+  height: 70%;
+  background: var(--primary);
+  position: absolute;
+  z-index: 19;
+  left: 100px;
+  top: 5px;
+  border-radius: 5px;
+  padding: 2%;
+  box-shadow: 0px 0px 26px #00000042;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: scroll;
+}
+.whyEDContainer::-webkit-scrollbar {
+  display: none;
+}
+.whyEdLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.WhyEDheading {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-3sxl);
+  font-weight: var(--font-semibold);
+  line-height: 2.875rem;
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .WhyEDheading {
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-weight: var(--font-semibold);
+    line-height: 2rem;
+  }
+}
+.whyEdLeft h4 {
+  margin-bottom: 30px;
+}
+.whyEDRight {
+  border-left: 1px solid white;
+  width: 45%;
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 6%;
+  gap: 20px;
+}
+
+.whyEDPoints {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 10px;
+}
+.whyEDIcon {
+  filter: invert(94%) sepia(48%) saturate(2%) hue-rotate(15deg) brightness(113%)
+    contrast(101%);
+}
+
+/* How It works */
+
+.hIWContainer {
+  width: 90%;
+  height: 500px;
+  background: var(--primary);
+  position: absolute;
+  z-index: 19;
+  left: 100px;
+  top: 5px;
+  border-radius: 5px;
+}
+
+.step_wrapper {
+  background: var(--primary);
+  padding: 5rem 0;
+  border-radius: 5px;
+}
+.child_wrapper {
+  display: flex;
+  flex-basis: 30%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+/* Vocations */
+
+.vocationContainer {
+  height: auto;
+  background: var(--primary);
+  position: absolute;
+  z-index: 19;
+  right: 70px;
+  top: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 2%;
+}
+.vocationContainer h4 {
+  text-transform: capitalize;
+}
+.vocationContainer a {
+  text-decoration: none;
+}
+
+/* schools */
+
+.schoolContainer {
+  width: 100%;
+  height: 100%;
+  background: var(--primary);
+  position: absolute;
+  z-index: 19;
+  right: 10px;
+  top: 5px;
+  border-radius: 5px;
+  padding: 2%;
+  overflow-y: scroll;
+}
+.schoolContainer::-webkit-scrollbar {
+  display: none;
+}
+.headingAndChevronWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+  padding: 0 2% 0 2%;
+}
+.masonryContainer {
+  column-count: 4;
+  column-gap: 10px;
+}
+
+@media (min-width: 1920px) {
+  .masonryContainer {
+    column-count: 6;
+  }
+}
+
+@media (min-width: 1540px) {
+  .masonryContainer {
+    column-count: 5;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .masonryContainer {
+    column-count: auto;
+  }
+}
+
+.masonryItem {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+.checkbox__wrapper {
+  width: 80%;
+  height: 100%;
+  padding: 0.3rem 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.checkbox__wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.checkbox__wrapper button {
+  width: 100%;
+  margin-top: -12px;
+  margin-left: -2px;
+  /* background: var(--secondary); */
+  /* color: var(--light); */
+  padding: 0.65rem 1rem 0.65rem 1rem;
+  border-radius: 26px;
+}
+/* .checkbox__wrapper button:hover {
+  background: var(--secondary);
+  color: var(--light);
+} */
+@media (max-width: 1013px) {
+  .schoolBtn {
+    font-size: 14px !important;
+  }
+}
+.schoolsChevron {
+  position: relative;
+  left: 180px;
+  top: 19px;
+}
+.btn-str {
+  background: var(--secondary) !important;
+  color: var(--light) !important;
+}
